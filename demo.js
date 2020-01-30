@@ -131,3 +131,10 @@ funkyAdd(3, 6, 9)
 
 // FUNCTION BODY -we can execute multiple statements within the function body, sequentially. inside of our function body, we can create as many variables as we need to in order to do the work that we need to. A function body creates its own scope. Within a certain block of code live and die and do not affect what is outside of that scope.
 // every function creates its own scope. If we were to try to console.log(sum) above, outside of the curly brackets, you woud get an error. variables outside the function
+
+// remember that the function is just the function definition. Nothing happens until we actually call that function. In other words, it's the template that tells the JS engine or the interpreter that when it reads through this file to go ahead and create us a function in memory that we can use later on. it just defines the function, it does not execute it. And by function I mean the function name () and whatever is in the curly brackets: Example:
+// function funkyAdd(nOne, nTwo, nThree) {
+//     let sum = nOne + nTwo + nThree
+//     console.log(sum)
+// }
+// so nothing would happen to this until it is called outside of the brackets.
