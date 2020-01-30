@@ -127,3 +127,7 @@ function funkyAdd(nOne, nTwo, nThree) {
 funkyAdd(3, 6, 9)
 // This is what shows up in the console now.
 // demo.js:125 18
+// now we have seen multiple parameters show up in a sum.
+
+// FUNCTION BODY -we can execute multiple statements within the function body, sequentially. inside of our function body, we can create as many variables as we need to in order to do the work that we need to. A function body creates its own scope. Within a certain block of code live and die and do not affect what is outside of that scope.
+// every function creates its own scope. If we were to try to console.log(sum) above, outside of the curly brackets, you woud get an error. variables outside the function
